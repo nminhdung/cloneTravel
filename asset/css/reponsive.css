@@ -1,0 +1,149 @@
+/*1.Mobile && Tablet*/
+@media (max-width:1023px){
+    :root{
+        --header-height: 110px;
+    }
+}
+
+/*2. Tablet*/
+@media (max-width:1023px) and (min-width:740px){
+    .hidden-on-tablet{
+        display:none;
+    }
+    :root{
+        --header-height: 110px;
+    }
+    .header-navbar{
+        flex-direction:column;
+    }
+   
+    .slide-content{
+        top:200px;
+        padding: 0 20px;
+    }
+    .search-input-wrapper{
+        width:100%;
+    }
+    .slider-topics{
+        flex-direction: column;
+        padding-left: 0;    
+    }
+    .topic-item{
+        align-items: center;
+        margin-bottom:12px;
+    }
+    .banner-holiday{
+        margin-right:50px;
+    }
+    .content-beaches{
+        text-align:center;
+    }
+    .price{
+        display:flex;
+       justify-content: center;
+    }
+    .beaches-limit-time{
+        width:100%;
+    }
+    .block-city, .block-nature{
+        padding-top:40%;
+    }
+    .block-header{
+        margin-bottom: 40px;
+    }
+    .content-block-discovery{
+        flex-direction: column;
+    }
+   
+}
+
+/*3. Mobile*/
+@media (max-width:739px){
+   
+    .app {
+        overflow: hidden; 
+      }
+    .hidden-on-mobile{
+        display:none;
+    }
+    :root{
+        --header-height: 110px;
+    }
+    .header-navbar{
+        flex-direction:column;
+    }
+    .slide-content{
+        top: 200px;
+    }
+    .search-input-wrapper{
+        width:100%;
+    }
+    .slider-topics{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .topic-item{
+        align-items: center;
+        margin-bottom:12px;
+    }
+    .content-destination{
+        padding:0 6px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-holiday{
+        margin:0;
+    }
+    .banner-title,.banner-text{
+        font-size:4rem;
+    }
+    .content-beaches{
+        text-align:center;
+    }
+    .beaches{
+        padding: 0px 20px;
+    }
+    .price{
+        display:flex;
+       justify-content: center;
+    }
+    .beaches-limit-time{
+        width:100%;
+    }
+    .time{
+        padding: 10px 8px;
+    }
+    .block-city, .block-nature{
+        padding-top: 60%;
+    }
+    .block-header{
+        margin-bottom: 20px;
+    }
+    .block-header-title{
+        font-size: 2.6rem;
+    }
+    .content-block-discovery{
+        flex-direction: column;
+    }
+    .packages {
+        padding:0 24px;
+    }
+    .footer-contact-us{
+        flex-direction: column;
+    }
+    .footer-contact-input-wrapper{
+        flex-direction: column;
+       text-align: center;
+    }
+    .footer-contact-input{
+        margin-bottom:12px;
+    }
+    .copyright{
+        flex-direction: column;
+        max-height: 100%;
+    }
+    .copyright-themes{
+        margin-bottom:12px;
+    }
+}

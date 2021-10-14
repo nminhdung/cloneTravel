@@ -92,7 +92,9 @@
 }
 /*Slide*/
 .Slider {
-  min-height: 600px;
+  min-height:1000px;
+  
+  width:100%;
   background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg");
   padding-top: 50%;
   background-repeat: no-repeat;
@@ -104,9 +106,11 @@
   position: absolute;
   bottom: 270px;
   text-align: center;
+ 
 }
 .search-heading {
-  font-size: 5rem;
+  line-height: 3.6rem;
+  font-size: 4rem;
   color: var(--white-color);
 }
 .holiday {
@@ -127,9 +131,10 @@
 .search-title {
   font-weight: 300;
   padding: 20px;
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--white-color);
   letter-spacing: 2px;
+  line-height: 2.4rem
 }
 .search-input-wrapper {
   margin: 50px auto;
@@ -743,7 +748,7 @@
 .footer-contact-infor {
   background: #fff;
   width: 100%;
-  padding: 35px 30px !important;
+  padding: 35px 30px ;
   margin-top: 40px;
 }
 .contact-infor-img {
